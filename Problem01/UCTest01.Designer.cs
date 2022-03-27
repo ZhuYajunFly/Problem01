@@ -50,6 +50,7 @@ namespace Problem01
             this.uiPanel1.Name = "uiPanel1";
             this.uiPanel1.Size = new System.Drawing.Size(572, 109);
             this.uiPanel1.TabIndex = 0;
+            this.uiPanel1.Text = null;
             this.uiPanel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // uiTableLayoutPanel1
@@ -114,6 +115,7 @@ namespace Problem01
             this.uiTextBox1.TabIndex = 2;
             this.uiTextBox1.Text = "ABC abc 123 测试";
             this.uiTextBox1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.uiTextBox1.Load += new System.EventHandler(this.uiTextBox1_Load);
             // 
             // uiLabel1
             // 
@@ -132,7 +134,7 @@ namespace Problem01
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.uiPanel1);
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCTest01";
             this.Size = new System.Drawing.Size(572, 109);
             this.uiPanel1.ResumeLayout(false);

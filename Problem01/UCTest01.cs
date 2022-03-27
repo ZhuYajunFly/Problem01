@@ -16,5 +16,10 @@ namespace Problem01
         {
             InitializeComponent();
         }
+
+        private void uiTextBox1_Load(object sender, EventArgs e)
+        {
+            uiTextBox1.Text = "ABC abc 123 测试";
+        }
     }
 }
