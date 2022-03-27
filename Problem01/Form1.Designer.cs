@@ -32,7 +32,10 @@ namespace Problem01
             this.uiButton1 = new Sunny.UI.UIButton();
             this.formsPlot1 = new ScottPlot.FormsPlot();
             this.uiButton2 = new Sunny.UI.UIButton();
+            this.uiTextBox1 = new Sunny.UI.UITextBox();
             this.ucTest011 = new Problem01.UCTest01();
+            this.uiLabel1 = new Sunny.UI.UILabel();
+            this.uiLabel2 = new Sunny.UI.UILabel();
             this.SuspendLayout();
             // 
             // uiButton1
@@ -70,6 +73,22 @@ namespace Problem01
             this.uiButton2.TipsFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.uiButton2.Click += new System.EventHandler(this.uiButton2_Click);
             // 
+            // uiTextBox1
+            // 
+            this.uiTextBox1.ButtonSymbol = 61761;
+            this.uiTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.uiTextBox1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiTextBox1.Location = new System.Drawing.Point(37, 470);
+            this.uiTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiTextBox1.Maximum = 2147483647D;
+            this.uiTextBox1.Minimum = -2147483648D;
+            this.uiTextBox1.MinimumSize = new System.Drawing.Size(1, 16);
+            this.uiTextBox1.Name = "uiTextBox1";
+            this.uiTextBox1.Size = new System.Drawing.Size(298, 29);
+            this.uiTextBox1.TabIndex = 5;
+            this.uiTextBox1.Text = "ABC abc 123 测试";
+            this.uiTextBox1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // ucTest011
             // 
             this.ucTest011.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -79,11 +98,34 @@ namespace Problem01
             this.ucTest011.Size = new System.Drawing.Size(628, 137);
             this.ucTest011.TabIndex = 4;
             // 
+            // uiLabel1
+            // 
+            this.uiLabel1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiLabel1.Location = new System.Drawing.Point(354, 470);
+            this.uiLabel1.Name = "uiLabel1";
+            this.uiLabel1.Size = new System.Drawing.Size(323, 23);
+            this.uiLabel1.TabIndex = 6;
+            this.uiLabel1.Text = "Only SunnyUI-Button text render wrong";
+            this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uiLabel2
+            // 
+            this.uiLabel2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiLabel2.Location = new System.Drawing.Point(354, 513);
+            this.uiLabel2.Name = "uiLabel2";
+            this.uiLabel2.Size = new System.Drawing.Size(323, 23);
+            this.uiLabel2.TabIndex = 7;
+            this.uiLabel2.Text = "只有SunnyUI的按钮文本出现渲染问题";
+            this.uiLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.uiLabel2);
+            this.Controls.Add(this.uiLabel1);
+            this.Controls.Add(this.uiTextBox1);
             this.Controls.Add(this.ucTest011);
             this.Controls.Add(this.uiButton2);
             this.Controls.Add(this.formsPlot1);
@@ -102,6 +144,9 @@ namespace Problem01
         private ScottPlot.FormsPlot formsPlot1;
         private Sunny.UI.UIButton uiButton2;
         private UCTest01 ucTest011;
+        private Sunny.UI.UITextBox uiTextBox1;
+        private Sunny.UI.UILabel uiLabel1;
+        private Sunny.UI.UILabel uiLabel2;
     }
 }
 
