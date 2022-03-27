@@ -33,9 +33,9 @@ namespace Problem01
             this.formsPlot1 = new ScottPlot.FormsPlot();
             this.uiButton2 = new Sunny.UI.UIButton();
             this.uiTextBox1 = new Sunny.UI.UITextBox();
-            this.ucTest011 = new Problem01.UCTest01();
             this.uiLabel1 = new Sunny.UI.UILabel();
             this.uiLabel2 = new Sunny.UI.UILabel();
+            this.ucTest011 = new Problem01.UCTest01();
             this.SuspendLayout();
             // 
             // uiButton1
@@ -89,6 +89,26 @@ namespace Problem01
             this.uiTextBox1.Text = "ABC abc 123 测试";
             this.uiTextBox1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // uiLabel1
+            // 
+            this.uiLabel1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiLabel1.Location = new System.Drawing.Point(354, 470);
+            this.uiLabel1.Name = "uiLabel1";
+            this.uiLabel1.Size = new System.Drawing.Size(323, 23);
+            this.uiLabel1.TabIndex = 6;
+            this.uiLabel1.Text = "Only SunnyUI-Button and Panle-title text render wrong";
+            this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uiLabel2
+            // 
+            this.uiLabel2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiLabel2.Location = new System.Drawing.Point(354, 513);
+            this.uiLabel2.Name = "uiLabel2";
+            this.uiLabel2.Size = new System.Drawing.Size(408, 23);
+            this.uiLabel2.TabIndex = 7;
+            this.uiLabel2.Text = "只有SunnyUI的按钮和Panel的标题文本出现渲染问题";
+            this.uiLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // ucTest011
             // 
             this.ucTest011.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -97,26 +117,6 @@ namespace Problem01
             this.ucTest011.Name = "ucTest011";
             this.ucTest011.Size = new System.Drawing.Size(628, 137);
             this.ucTest011.TabIndex = 4;
-            // 
-            // uiLabel1
-            // 
-            this.uiLabel1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiLabel1.Location = new System.Drawing.Point(354, 470);
-            this.uiLabel1.Name = "uiLabel1";
-            this.uiLabel1.Size = new System.Drawing.Size(323, 23);
-            this.uiLabel1.TabIndex = 6;
-            this.uiLabel1.Text = "Only SunnyUI-Button text render wrong";
-            this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // uiLabel2
-            // 
-            this.uiLabel2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiLabel2.Location = new System.Drawing.Point(354, 513);
-            this.uiLabel2.Name = "uiLabel2";
-            this.uiLabel2.Size = new System.Drawing.Size(323, 23);
-            this.uiLabel2.TabIndex = 7;
-            this.uiLabel2.Text = "只有SunnyUI的按钮文本出现渲染问题";
-            this.uiLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Form1
             // 
